@@ -2,6 +2,10 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import TechEventBase from './types/TechEventBase'
+import Talk from './types/Talk'
+import Conference from './types/Conference'
+import Meetup from './types/Meetup'
 
 function App() {
   const [count, setCount] = useState(0)
