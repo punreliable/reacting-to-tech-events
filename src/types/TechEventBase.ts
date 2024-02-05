@@ -16,7 +16,6 @@ export type Conference = TechEventBase & {
     
 }
 
-
 export type Meetup = TechEventBase & {
     location: string,
     price: string,
